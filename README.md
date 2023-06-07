@@ -38,3 +38,10 @@ master.mav.named_value_float_send(
 Example of dumping qgroundcontrol tlog to text:
 mavlogdump.py --planner --format standard Documents/QGroundControl\ Daily/Telemetry/2023-05-18\ 17-35-20.tlog > temp2.txt
 
+## TODO
+ - For redundancy should be logging to SD card as well. Check Jordan's work on logging.
+ - Add crontabs (or service if that's the way to go) to this file.
+ - Add qgroundcontrol examples to this file
+ - Dump goose params to this file
+ - Add versions for goose/laptop
+
