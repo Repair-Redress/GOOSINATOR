@@ -22,18 +22,15 @@ For process sending temperature, I was able to find info on a random way of send
 https://discuss.bluerobotics.com/t/adding-a-sensor-to-mavlink-stream/7985/22
 using the function master.mav.named_value_float_send()
 
+pseudoexample
 ```
-import time
-boot_time = time.time()
-sensor_name = b'H2O_TEMP'
-# Import mavutil
 from pymavlink import mavutil
 # Create the connection to the top-side computer as companion computer/autopilot
 master = mavutil.mavlink_connection('udpout:10.2.53.3:14550', source_system=1)
 master.mav.named_value_float_send(
     int((time.time() - boot_time) * 1e3), # Unix time since boot (milliseconds)
     sensor_name,
-    400.0
+    temp
     )
 ```
 
