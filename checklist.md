@@ -1,22 +1,22 @@
 Bring:
-	Goose
-	Goose main battery
-  Power Pack
-	hotspot(s)
-	jump charger
-  lipo charger
-	binocs
-	extensions
-	multimeter
-	camera/s
+ -	Goose
+ -	Goose main battery
+ -	Power Pack
+ -	hotspot(s)
+ -	jump charger
+ -	lipo charger
+ -	binocs
+ -	extensions
+ -	multimeter
+ -	camera/s
 	
 
 Pre-Check charge on:
-	Big Goose
-	orbic hotspot
-	phone (charge cable)
-	laptop (charge)
-	jump charger
+ - Big Goose
+ - orbic hotspot
+ - phone (charge cable)
+ - laptop (charge)
+ - jump charger
 	
 4G tests:
 power autopilot, companion & orbic
