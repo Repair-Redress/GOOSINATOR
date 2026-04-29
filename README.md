@@ -9,6 +9,8 @@ The current system consists of
  - an X8R receiveer for redundant controls
  - blue robotics motor controllers
  - two props
+ - Runcam Split4k for onboard recorded video https://www.runcam.com/download/split4k/RC_Split_4k_Manual_EN.pdf
+ - PEGATISAN 1080P Webcams Eye Contact Computer for streaming video
 
 # Notes on setup
 We settled for a combination of pymavlink and mavproxy to broadcast the mavlink signal and inject it with a mavlink general purpose field.
