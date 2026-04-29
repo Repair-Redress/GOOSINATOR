@@ -34,6 +34,7 @@ SIK test:
 Extra Testing:
  -	[ ] sudo supervisorctl status -> Test supervisord status for temperature stream + mavlink
  -	[ ] Enabling Mavlink in QGC: Enable in Comm Links, set to listen on port 60010
+ -	[ ] sudo supervisorctl tail -f temperature -> Checking log of temperature data
 
 Joystick:
  -	[ ] Test that transmitter is showing usb symbol
