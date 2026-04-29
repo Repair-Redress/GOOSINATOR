@@ -9,6 +9,8 @@ Bring:
  -	[ ] extensions
  -	[ ] multimeter
  -	[ ] camera/s
+ -	[ ] Laptop
+ -	[ ] SIK for laptop
 	
 
 Pre-Check charge on:
@@ -29,6 +31,10 @@ SIK test:
  -	[ ] check that radios and talking (bright blinks every second)
  -	[ ] check that primary and secondary comms are showing in QGC
 
+Extra Testing:
+ -	[ ] sudo supervisorctl status -> Test supervisord status for temperature stream + mavlink
+ -	[ ] Enabling Mavlink in QGC: Enable in Comm Links, set to listen on port 60010
+
 Joystick:
  -	[ ] Test that transmitter is showing usb symbol
  -	[ ] Check manual mode -- prop steer and thrust fore/back
@@ -37,3 +43,5 @@ PRELAUNCH
  -	[ ] Clean out all missions, logs
  -	[ ] Turn on camera
  -	[ ] Check manual control
+ -	[ ] Set auto path in QGC
+ -	[ ] Loiter test in addition to manual
