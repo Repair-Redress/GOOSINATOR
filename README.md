@@ -1,5 +1,17 @@
+The current system consists of 
+ - a pixhawk 6c as the flight controller
+ - a raspi 4b as a secondary on board computer with internet
+     - on a wireguard VPN with the laptop, fixed IP of 10.2.53.4
+     - running pymavlink and mavproxy to inject temp data into the tlog
+     - running mediamtx to push video
+ - PM07 power distributor
+ - SLK radios for redundant serial
+ - an X8R receiveer for redundant controls
+ - blue robotics motor controllers
+ - two props
+
 # Notes on setup
-We tried using dronekit to save temp file separately as a log file. Then tried looking at Mavrouter. Finally settled for a combination of pymavlink and mavproxy to broadcast the mavlink signal and inject it with a mavlink general purpose field.
+We settled for a combination of pymavlink and mavproxy to broadcast the mavlink signal and inject it with a mavlink general purpose field.
 
 ## MavProxy
 Setting up mavproxy for echoing between goose, laptop, qgroundcontrol.
