@@ -13,6 +13,7 @@ Bring:
 
 Pre-Check charge on:
  -	[ ] Big Goose
+ -	[ ] Video battery
  -	[ ] orbic hotspot
  -	[ ] phone (charge cable)
  -	[ ] laptop (charge)
@@ -21,7 +22,8 @@ Pre-Check charge on:
 4G tests:
  -	[ ] power autopilot, companion & orbic
  -	[ ] Put mac on phone network, enable wireguard
- -	[ ] test pings / vpm
+ -	[ ] test pings / vpn
+ -	[ ] test incoming video
 
 SIK test:
  -	[ ] check that radios and talking (bright blinks every second)
