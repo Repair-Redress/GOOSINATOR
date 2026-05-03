@@ -2,6 +2,7 @@ The current system consists of
  - a pixhawk 6c as the flight controller
  - a raspi 4b as a secondary on board computer with internet
      - on a wireguard VPN with the laptop, fixed IP of 10.2.53.4
+     - Chris's mac is 10.2.53.2
      - running pymavlink and mavproxy to inject temp data into the tlog
      - running mediamtx to push video
  - PM07 power distributor
